@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Spotify Vue app",
   "main": "index.js",
+  "homepage": "https://deveroab.github.io/Spotify-App",
   "scripts": {
     "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "dev": "nodemon server/index.js",
+    "deploy": "gh-pages -d client/dist"
   },
   "author": "SamuelLind",
   "license": "ISC",
@@ -13,6 +15,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "gh-pages": "^2.0.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
