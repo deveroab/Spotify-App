@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Spotify Vue app",
   "main": "index.js",
-  "homepage": "https://deveroab.github.io/Spotify-App",
+  "homepage": "http://deveroab.github.io/Spotify-App/",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node server/index.js vue-cli-service serve",
     "dev": "nodemon server/index.js",
-    "deploy": "gh-pages -d client/dist"
+    "deploy": "gh-pages -d client/dist",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "author": "SamuelLind",
   "license": "ISC",
